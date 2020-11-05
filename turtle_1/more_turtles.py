@@ -64,9 +64,7 @@ class Turtle_chaser:
 
 rospy.init_node('more_turtles')
 
-turtles.append(Turtle_chaser(name='Leonardo', coord=(1.0, 1.0, 0.0), speed=1.0))
-turtles.append(Turtle_chaser(name='Raphael', coord=(1.0, 10.0, 0.0), speed=0.5))
-turtles.append(Turtle_chaser(name='Michelangelo', coord=(10.0, 1.0, 0.0), speed=4.0))
-turtles.append(Turtle_chaser(name='Donatello', coord=(10.0, 10.0, 0.0), speed=2.5))
+turtles.append(Turtle_chaser(name='Bunny', coord=(1.0, 1.0, 0.0), speed=1.0))
+turtles.append(Turtle_chaser(name='Tanny', coord=(1.0, 10.0, 0.0), speed=2.5))
 
 rospy.spin()
